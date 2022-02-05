@@ -1,0 +1,24 @@
+.sidebar {
+  background-image: linear-gradient(40deg, #19d3ae, #0fcfec);
+  position: fixed;
+  color: white;
+  height: 100%;
+}
+.sidebar li span {
+  padding-left: 5px;
+}
+.sidebar li {
+  margin: 2em;
+  padding: 10px;
+  border-radius: 10px;
+}
+.sidebar li:hover {
+  box-shadow: 1px 2px 20px grey;
+  cursor: pointer;
+}
+.sidebar li:hover span {
+  display: inline-block;
+}
+.sidebar svg {
+  margin-right: 5px;
+}
